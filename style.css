@@ -1,0 +1,210 @@
+ body {
+    margin:10px;
+  }
+  h1 {
+    line-height: 5;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffcc4d;
+  }
+  
+  h2 {
+    font-size: 72px;
+    line-height: 1.4;
+    font-weight: 200;
+    font-style: normal;
+    color: #ffcc4d;
+    margin-left: 211px;
+  }
+    h3{
+      font-size: 72px;
+      line-height: 1.4;
+      font-weight: 200;
+      font-style: normal;
+      color: #ffcc4d;
+      margin-left: 211px;
+      position: absolute;
+      text-align: center;
+      left:1169px;
+    }
+
+    .message{
+
+      display:none;
+    }
+
+  #love{
+    width: 200px;
+
+    height: 200px;
+    
+    background-image: url("img/love.png");
+    
+    background-size: 174%;
+    
+    background-repeat: no-repeat;
+    
+    border-radius: 100px;
+    
+    background-position-x: center;
+    
+    background-position-y: center;
+    
+    margin: 34px 4px 11px 53px;
+}
+#sad{
+  width: 200px;
+
+  height: 200px;
+  
+  background-image: url("img/sad.png");
+  
+  background-size: 125%;
+  
+  background-repeat: no-repeat;
+  
+  border-radius: 100px;
+  background-position-x: -14px;
+   background-position-y: -24px;
+   margin: 34px 4px 11px 53px;
+
+}
+  
+#happy{
+  width: 200px;
+
+  height: 200px;
+  
+  background-image: url("img/happy.png");
+  
+  background-size: 174%;
+  
+  background-repeat: no-repeat;
+  
+  border-radius: 100px;
+  
+  background-position-x: center;
+  
+  background-position-y: center;
+  
+  margin: 34px 4px 11px 53px;
+}
+  
+#tongue{
+  width: 200px;
+
+  height: 200px;
+  
+  background-image: url("img/tongue.png");
+  
+  background-size: 174%;
+  
+  background-repeat: no-repeat;
+  
+  border-radius: 100px;
+  
+  
+  margin: 34px 4px 11px 53px;
+  background-position-x: -45px;
+
+background-position-y: -68px;
+}
+  
+
+.ensemble{
+  
+  position: relative;
+}
+.emoji-love{
+position: absolute;
+top: 680px;
+width: 158px;
+left: -200px;
+height: 158px;
+}
+.emojiSad{
+  position: absolute;
+  top: 680px;
+  width: 158px;
+  left: -200px;
+  height: 158px;
+  }
+  .emojiHappy{
+    position: absolute;
+  top: 680px;
+  width: 158px;
+  left: -200px;
+  height: 158px;
+  }
+  .emojiTongue{
+    position: absolute;
+    top: 680px;
+    width: 158px;
+    left: -200px;
+    height: 158px;
+    
+  }
+.basEmoji{
+  position:absolute;
+  display:block;
+  width: 170px;
+
+  left: -9px;
+  
+  top: -10px;
+ 
+}
+.yeux{
+    position:absolute;
+    display:block;
+    width: 100px;
+    left: 25px;
+    top: 27px;
+   opacity: 0;
+}
+.bouche{
+  position:absolute;
+  display:block;
+  width: 90px;
+  left: 33px;
+  top: 83px;
+  opacity: 0;
+}
+
+.decort
+{
+  padding-left: 78px;
+  padding-left: 150px;
+  position: relative;
+}
+.tool-1{
+  transform: rotate(22deg);
+  position:absolute;
+  left: 50px;
+  top: 500px;
+}
+.tool-2{
+  transform: rotate(0deg);
+  left: 488px;
+  top: 500px;
+  position:absolute;
+}
+.tool-3{
+  transform: rotate(22deg);
+  left: 926px;
+  top: 500px;
+  position:absolute;
+}
+.tool-4{
+  transform: rotate(0deg);
+  left: 1364px;
+  top: 500px;
+  position:absolute;
+}
+.green{
+  filter:hue-rotate(381deg)
+}
+.nav{
+  margin-left: 159px;
+}

@@ -1,0 +1,516 @@
+h2
+{
+    font-size: 16px;
+    font-weight: lighter; 
+}
+h1
+{
+    font-size: 25px;
+    font-weight: normal;
+}
+span
+{
+    color:blue;
+}
+.logolegende p
+{
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+}
+.logolegende span
+{
+    font-weight: bolder;
+    color: grey;
+}
+body
+{
+    text-align: center;
+    background: rgb(108,70,168) ;
+    background-image:url(img/background_green.png);
+    background-image:url(img/background_purple.png);
+    /*background-image:url(img/stars_little.png);
+    background-image:url(stars_big.png);*/    
+}
+.backimg
+{ 
+    background-image: url(img/background_snow.jpg);
+    border-radius: 1%;
+    background-size: 100%;
+}
+.conteneur
+{   font-weight: lighter;
+    font-family: Helvetica;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;  
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+
+.bloc1
+{
+    color:white;
+    display:flex;
+}
+
+.bolcG
+{
+    display: flex;
+    width: 60%;
+
+}
+.bolcG img
+{
+    object-fit: contain;
+    align-self: left;
+}
+.bolcD
+{
+    width: 40%;
+
+}
+.menu 
+{
+    margin: 10px;
+    list-style-type: none;
+    justify-content: flex-end;
+    text-align: right;
+    display: flex;
+    list-style: none;
+}
+
+.menu li
+{
+    margin: 10px;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    text-decoration:none; 
+}
+
+.menu li a
+{
+    text-decoration:none; 
+    color:white;
+}
+.bloc1 p
+{
+font-size: 20px;
+}
+#bat img:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.6s ease-in-out 0s;
+}
+
+/*fin bloc 1*/
+.bloc2
+{   
+    padding: 0px 0px 0Px 20px;
+    margin: 10px 0px 15px 0px;
+    display: flex;
+    flex-grow: left;   
+}
+
+.descent
+{
+    font-size: 20px;
+    padding: 0px 10px;
+    width: 66%;
+}
+p#t
+{
+       /* justify-content: center; */
+       font-size: 11px;
+       /* padding: 0px; */
+       margin: 29px 19px 1px 40px;
+       margin-top: 0px;
+}
+.bouton
+{
+    display: flex;
+    /* width: 40%; */
+    padding: 20px 3px 0px 10px;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+   .boutleg
+   {
+       /*font-size:8px;*/
+       justify-content: center;
+       font-size: 14px;
+
+   }
+.carre
+{
+    width: 25px;
+    height: 25px;
+    background: black;
+    margin: 8px 1px;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    font-size: 18px;
+}
+/*fin du bloc 2*/
+.bloc3
+{    
+        background-color: #923cc3;
+        align-content: center;
+        padding: 17px 0px;
+        /* max-width: 23%; */
+    
+}
+.blocIMG
+{
+    display: flex;
+    /* width: 100%; */
+    padding: 10px 10px 10px 10px;
+    /* justify-content: space-around; */
+    flex-grow: left;
+    /* width: 42%; */
+    background-image: url(img/transat.jpg);
+    border: 1px solid #923cc3;
+    /* background-clip: content-box; */
+    background-attachment: scroll;
+    display: space-around;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    margin: 0px 0px 0px 0px;
+}
+.image .bottle :hover
+{
+    cursor: default;
+    transform: rotate(-15deg);
+    transition: all 0.2s ease-in-out 0s;
+}
+.image .plasticbag :hover
+{
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s;
+}
+.parasol :hover
+{
+ width: 300px;
+ transition-duration: 3s, 5s;
+      
+}
+.image img
+{
+display: flex;
+max-width: 29%;
+height:auto;
+
+}
+
+.bloc4
+{
+    display:flex;
+}
+.blocA
+{
+    width: 60%;
+    padding: 27px;   
+}
+ .dechetsaqua article
+{
+color: grey;
+line-height: 140%;
+}
+
+.logolegende
+{
+    display:flex;
+    text-align: right;
+    flex-direction:row;
+}
+h3
+{
+   margin:19px 2px 5px 0px;
+}
+.unemerdeplastique article
+{
+    padding: 10px;
+    margin-top: 0px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.blocB
+{
+    width: 30%;
+    padding: 10px; 
+}
+
+.liste li a 
+{
+    border: 1px solid grey;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    opacity: O,15;
+}
+.liste span
+{
+    color:grey;
+    font-size: 10px;
+}
+.liste
+{
+    padding: 0px;
+}
+.liste li
+{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+   
+}
+.liste ul
+{
+    list-style-type: none; 
+    padding-inline-start: 5px;
+}
+.liste img
+{
+     align-content: flex-end;
+      max-width: 8%;   
+}
+.plasticbag:hover
+{
+    max-width: 25%;
+    transition: all 0.2s ease-in-out 0s;
+
+}
+.parasol{
+    
+    filter: alpha(100); 
+}
+.parasol :hover
+{
+    
+      
+       
+       
+        filter: alpha(50); 
+    
+    transition: all 0.4s ease-in-out 0s; 
+}
+
+
+.liste ul  :hover{
+    background-color: purple;
+    width:  289px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-box-ordinal-group: 50%;
+}
+
+.blocB article
+{
+    padding: 27px 24px 0px 0px;
+    color: grey;
+    font-size: 10px;
+}
+/*.poidsdesdechets
+{
+    border: 1px solid grey;
+    border-radius: 2px;   
+}*/
+
+form
+{
+    background-color: rgb(187, 187, 228);
+    padding: 7% 0%;
+    border-radius: 5px;
+}
+form p 
+{
+    background-color: rgb(187, 187, 228);
+    /* padding: 10% 0%; */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/*.send input
+{
+    text-align: center;
+    vertical-align: middle;
+    background: url(images/bouton-noir.png) no-repeat;
+    
+    text-decoration: none;
+    background: url(images/bouton-noir-2.png) no-repeat;
+   
+    margin: 20px 35%;
+    padding: 2%;
+    background-color: #e2dede;
+    background-image: linear-gradient(white, #8c8888);
+    
+}
+*/
+.send input{
+        /* border: none; */
+        padding: 6px 0 6px 0;
+        border-radius: 8px;
+        background: (187, 187, 228);
+        font: bold 13px Arial;
+        vertical-align: middle;
+        margin: 21px 31%;
+        padding: 2%;
+        /* box-shadow: 3px 3px 4px #999; */
+        background-color: #ada8a8;
+}
+form label 
+{
+    text-align: start;
+    padding: 9px 0px;
+    margin: 10%;
+}
+form  input
+{
+    text-align: start;
+    padding: 5px;
+}
+.fullwidth
+{     width: 76%;
+    margin: 0 10%;
+}
+article
+{
+    padding: 0px;
+    /* margin-top: 2px; */
+    font-size: 13px;
+}
+.troisblocs
+{
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 33px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    font-size: 13px;
+    padding: 40px 0px 0px 0px;
+    column-rule: 1px dotted grey;
+    color: grey;
+}
+
+.troisblocs p
+{
+    margin: 0;
+}
+/*.descent{
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    .menu li:hover {
+    border-radius: 15%;
+    transition-duration: 0s;
+    width:-webkit-fill-available;
+    background-color: #f5f5f79e;
+    opacity: 0.15;
+    color: white;
+    /* filter: blur(1px); */
+    /* width: 22px; */
+    /* height: 26px; */
+    /* background: rgb(255, 254, 254); */
+    /* margin: 5px 1px; 
+}
+    */
+.box{
+      /* background-color: #FFCCCC; */
+    /* width: 200px; */
+    /* height: 200px; */
+    /* -webkit-transform: rotate(180deg); */
+    transform: rotate(360deg);
+  }
+  
+  .box:hover {
+   
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* display: block; */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #0000FF; */
+    /* -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s; */
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+  
+    .menu li
+    {
+        color: #fff;
+    }
+    .menu a:hover
+  {
+    color: white;  
+  }
+  .menu  a:focus {
+    color: white;
+    background-color:white;
+  }
+.menu li :hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.poidsdesdechets li a :hover
+{
+    background-color: rgb(152, 85, 211);
+}
+.bloc5
+{
+    padding-left: 238px;
+    font-size: 9px;
+    color: #8c8888;
+    align-content: center;
+} 
+
+.deuxtrucs
+{
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+
+.encoredeuxtrucs
+{
+    display: flex;
+    align-content: center;
+    flex-direction:row;
+
+}
+.logoecolo
+{
+    display: flex;
+    /* width: 100%; */
+    /* flex-direction: row; */
+    /* align-content: center; */
+    padding: 0px 0px 10px 134px;
+}
+
+.logoecolo .icone1:hover{
+   
+    transform: opacity(50%);
+    transition: all 0.2s ease-in-out 0s;
+}
